@@ -1,20 +1,20 @@
 body {
     font-family: Arial, sans-serif;
-    max-width: 800 px;
+    max-width: 800px;
     margin: 0 auto;
-    padding: 20 px;
+    padding: 20px;
     line-height: 1.6;
-    background-color: #f4f4f9; /* Heller Hintergrund für bessere Lesbarkeit */
+    background-color: #f4f4f9;
     color: #333;
 }
 
 header {
     text-align: center;
-    margin-bottom: 40 px;
-    background-color: #0073e6; /* Blaues Header-Design */
+    margin-bottom: 40px;
+    background-color: #0073e6;
     color: white;
-    padding: 20 px;
-    border-radius: 8 px; /* Abgerundete Ecken */
+    padding: 20px;
+    border-radius: 8px;
 }
 
 nav ul {
@@ -24,7 +24,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 15 px;
+    margin-right: 15px;
 }
 
 nav ul li a {
@@ -32,12 +32,26 @@ nav ul li a {
     font-weight: bold;
 }
 
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 section {
-    margin-bottom: 20 px;
-    padding: 15 px;
+    margin-bottom: 20px;
+    padding: 15px;
     background-color: #ffffff;
-    border-radius: 8 px;
-    box-shadow: 0 2 px 4 px rgba (0, 0, 0, 0.1); /* Leichter Schatten für Tiefe */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 h1, h2 {
@@ -45,8 +59,8 @@ h1, h2 {
 }
 
 h2 {
-    border-bottom: 2 px solid #0073e6; /* Unterstreichung der Überschriften für Betonung */
-    padding-bottom: 5 px;
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 5px;
 }
 
 a {
@@ -56,14 +70,14 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color: #005bb5; /* Etwas dunklere Farbe beim Hover */
+    color: #005bb5;
 }
 
 footer {
     text-align: center;
-    margin-top: 40 px;
-    padding: 10 px;
+    margin-top: 40px;
+    padding: 10px;
     background-color: #333;
     color: white;
-    border-radius: 8 px;
+    border-radius: 8px;
 }
