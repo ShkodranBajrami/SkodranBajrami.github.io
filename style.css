@@ -4,19 +4,49 @@ body {
     margin: 0 auto;
     padding: 20px;
     line-height: 1.6;
+    background-color: #f4f4f9; /* Heller Hintergrund für bessere Lesbarkeit */
+    color: #333;
 }
 
 header {
     text-align: center;
     margin-bottom: 40px;
+    background-color: #0073e6; /* Blaues Header-Design */
+    color: white;
+    padding: 20px;
+    border-radius: 8px; /* Abgerundete Ecken */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
 }
 
 section {
     margin-bottom: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Leichter Schatten für Tiefe */
 }
 
 h1, h2 {
     color: #333;
+}
+
+h2 {
+    border-bottom: 2px solid #0073e6; /* Unterstreichung der Überschriften für Betonung */
+    padding-bottom: 5px;
 }
 
 a {
@@ -26,4 +56,14 @@ a {
 
 a:hover {
     text-decoration: underline;
+    color: #005bb5; /* Etwas dunklere Farbe beim Hover */
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 8px;
 }
