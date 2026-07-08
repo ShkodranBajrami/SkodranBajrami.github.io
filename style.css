@@ -1,8 +1,14 @@
 body {
+    background-image: url('C:\Users\sbajrami1\OneDrive - WBSEDU\VorbereitungKurs\Office - Training\Office-Training\Bilder\Screenshots'); /* Pfad zum Bild */
+    background-size: cover; /* Passt das Bild an, um den gesamten Hintergrund zu füllen */
+    background-repeat: no-repeat; /* Verhindert das Wiederholen des Bildes */
+    background-position: center; /* Zentriert das Bild */
+    /* Optional: Eine halbtransparente Farbschicht für bessere Lesbarkeit */
+    background-color: rgba(255, 255, 255, 0.8);
     font-family: Arial, sans-serif;
-    max-width: 800px;
+    max-width: 800 px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 20 px;
     line-height: 1.6;
     background-color: #f4f4f9;
     color: #333;
@@ -10,11 +16,11 @@ body {
 
 header {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 40 px;
     background-color: #0073e6;
     color: white;
-    padding: 20px;
-    border-radius: 8px;
+    padding: 20 px;
+    border-radius: 8 px;
 }
 
 nav ul {
@@ -24,7 +30,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 15px;
+    margin-right: 15 px;
 }
 
 nav ul li a {
@@ -36,7 +42,7 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    height: 200 px;
     text-align: center;
 }
 
@@ -47,11 +53,11 @@ main {
 }
 
 section {
-    margin-bottom: 20px;
-    padding: 15px;
+    margin-bottom: 20 px;
+    padding: 15 px;
     background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8 px;
+    box-shadow: 0 2 px 4 px rgba (0, 0, 0, 0.1);
 }
 
 h1, h2 {
@@ -59,8 +65,8 @@ h1, h2 {
 }
 
 h2 {
-    border-bottom: 2px solid #0073e6;
-    padding-bottom: 5px;
+    border-bottom: 2 px solid #0073e6;
+    padding-bottom: 5 px;
 }
 
 a {
@@ -75,9 +81,9 @@ a:hover {
 
 footer {
     text-align: center;
-    margin-top: 40px;
-    padding: 10px;
+    margin-top: 40 px;
+    padding: 10 px;
     background-color: #333;
     color: white;
-    border-radius: 8px;
+    border-radius: 8 px;
 }
